@@ -3,21 +3,27 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Md. Al-Riad — IoT & Robotics Engineer, IEEE Researcher, Dean's Award Winner, and WSDG 2026 Gold Award recipient." />
+    <meta name="theme-color" content="#06060f" />
     <title>Md. Al-Riad | IoT & Robotics Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+    
+    <!-- ✅ UPDATED CSS PATH -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
 
     <!-- ===== GLOW ORBS ===== -->
-    <div class="orb orb-1"></div>
-    <div class="orb orb-2"></div>
-    <div class="orb orb-3"></div>
+    <div class="orb orb-1" aria-hidden="true"></div>
+    <div class="orb orb-2" aria-hidden="true"></div>
+    <div class="orb orb-3" aria-hidden="true"></div>
 
     <!-- ===== HEADER ===== -->
     <header class="l-header" id="header">
-        <nav class="nav">
-            <a href="#" class="nav__logo">Md. Al-Riad</a>
+        <nav class="nav" aria-label="Primary navigation">
+            <a href="#" class="nav__logo" aria-label="Md. Al-Riad Home">Md. Al-Riad</a>
             <ul class="nav__list" id="nav-list">
                 <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                 <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
@@ -29,9 +35,9 @@
                 <li class="nav__item"><a href="#achievements" class="nav__link">Achievements</a></li>
                 <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
             </ul>
-            <div class="nav__toggle" id="nav-toggle">
+            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
                 <i class='bx bx-menu'></i>
-            </div>
+            </button>
         </nav>
     </header>
 
@@ -44,7 +50,7 @@
                     <h1 class="home__title">
                         Hi, I'm <br><span class="home__title-color">Md. Al-Riad</span>
                     </h1>
-                    <p class="home__subtitle">IoT & Robotics Engineer | Researcher | Innovator</p>
+                    <p class="home__subtitle">IoT &amp; Robotics Engineer | Researcher | Innovator</p>
                     <p class="home__desc">
                         Dean's Award winner, IEEE researcher, WSDG 2026 Gold Award Winner, and international robotics competitor.
                         I build intelligent, affordable systems that solve real-world problems.
@@ -54,10 +60,10 @@
                         <a href="#work" class="btn-outline">View My Work</a>
                     </div>
                     <div class="home__social">
-                        <a href="https://linkedin.com/in/md-al-riad-51b06b298" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                        <a href="https://github.com/riad42-iot" target="_blank" class="home__social-icon"><i class='bx bxl-github'></i></a>
-                        <a href="https://www.facebook.com/share/14fkB3Eqga/" target="_blank" class="home__social-icon"><i class='bx bxl-facebook'></i></a>
-                        <a href="#" target="_blank" class="home__social-icon"><i class='bx bxl-google'></i></a>
+                        <a href="https://linkedin.com/in/md-al-riad-51b06b298" target="_blank" rel="noopener" class="home__social-icon" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/riad42-iot" target="_blank" rel="noopener" class="home__social-icon" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.facebook.com/share/14fkB3Eqga/" target="_blank" rel="noopener" class="home__social-icon" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="home__social-icon" aria-label="Portfolio"><i class='bx bxl-google'></i></a>
                     </div>
                 </div>
                 <div class="home__img">
@@ -85,13 +91,13 @@
                         <img src="assets/img/my.jpg" alt="Md. Al-Riad" />
                     </div>
                     <div>
-                        <h2 class="about__subtitle">IoT & Robotics Engineer</h2>
+                        <h3 class="about__subtitle">IoT &amp; Robotics Engineer</h3>
                         <p class="about__text">
                             I am an <strong>IoT and Robotics Engineering</strong> student at the 
                             <strong>University of Frontier Technology, Bangladesh (UFTB)</strong>. 
                             My journey started with a rough first year—but I turned failure into fuel. 
                             I went on to win the <strong>Dean's Award</strong>, rank <strong>1st in my batch in 2nd year</strong>, 
-                            and publish <strong>1 research papers</strong> in IEEE conferences.
+                            and publish <strong>1 research paper</strong> in IEEE conferences.
                         </p>
                         <p class="about__text" style="margin-top:12px;">
                             I've built a <strong>sub-$250 AI telepresence medical robot</strong>, a 
@@ -146,7 +152,7 @@
                         </div>
                     </div>
                     <div>
-                        <img src="assets/img/work1.png" alt="Skills" class="skills__img" />
+                        <img src="assets/img/work1.png" alt="Skills illustration" class="skills__img" />
                     </div>
                 </div>
             </div>
@@ -203,7 +209,7 @@
                             <tr>
                                 <td>2022 – 2026</td>
                                 <td><strong>University of Frontier Technology, Bangladesh (UFTB)</strong></td>
-                                <td>B.Sc. in IoT & Robotics Engineering • Dean's Award (2nd Year) • 1st in Batch</td>
+                                <td>B.Sc. in IoT &amp; Robotics Engineering • Dean's Award (2nd Year) • 1st in Batch</td>
                             </tr>
                             <tr>
                                 <td>2020 – 2022</td>
@@ -245,32 +251,32 @@
                             <tr>
                                 <td><strong>AI Telepresence Medical Robot</strong></td>
                                 <td>Tracked Rover + ECG + Flutter Dashboard</td>
-                                <td><a href="#" target="_blank">🔗 GitHub</a></td>
+                                <td><a href="#" target="_blank" rel="noopener">🔗 GitHub</a></td>
                             </tr>
                             <tr>
                                 <td><strong>SHMCS: Military Mesh Communication</strong></td>
                                 <td>4-Layer + Encryption + Health Analytics</td>
-                                <td><a href="#" target="_blank">🔗 GitHub</a></td>
+                                <td><a href="#" target="_blank" rel="noopener">🔗 GitHub</a></td>
                             </tr>
                             <tr>
                                 <td><strong>SOS Device</strong></td>
                                 <td>SIM900 + Arduino + GPS Tracker</td>
-                                <td><a href="https://github.com/riad42-iot/Sos-device-using-sim900-and-arduino-uno-and-a-gps-tracker" target="_blank">🔗 View</a></td>
+                                <td><a href="https://github.com/riad42-iot/Sos-device-using-sim900-and-arduino-uno-and-a-gps-tracker" target="_blank" rel="noopener">🔗 View</a></td>
                             </tr>
                             <tr>
                                 <td><strong>Home Automation</strong></td>
                                 <td>ESP32 + MQTT</td>
-                                <td><a href="https://github.com/riad42-iot/HomeAutomation-Using-esp32" target="_blank">🔗 View</a></td>
+                                <td><a href="https://github.com/riad42-iot/HomeAutomation-Using-esp32" target="_blank" rel="noopener">🔗 View</a></td>
                             </tr>
                             <tr>
                                 <td><strong>Virtual AI Assistant</strong></td>
                                 <td>Python-based voice assistant</td>
-                                <td><a href="https://github.com/riad42-iot/PersonalAIAssistant" target="_blank">🔗 View</a></td>
+                                <td><a href="https://github.com/riad42-iot/PersonalAIAssistant" target="_blank" rel="noopener">🔗 View</a></td>
                             </tr>
                             <tr>
                                 <td><strong>ESP32 + Gemini AI</strong></td>
                                 <td>AI integration with ESP32</td>
-                                <td><a href="https://github.com/riad42-iot/ESP32-gemini" target="_blank">🔗 View</a></td>
+                                <td><a href="https://github.com/riad42-iot/ESP32-gemini" target="_blank" rel="noopener">🔗 View</a></td>
                             </tr>
                         </tbody>
                     </table>
@@ -295,19 +301,19 @@
                         <tbody>
                             <tr>
                                 <td><strong>AI-Enabled Telepresence Medical Assistant Robot for Remote Healthcare Monitoring</strong></td>
-                                <td><span class="badge" style="color:#4ade80;">IEEE RAAICON</span></td>
+                                <td><span class="badge badge-success">IEEE RAAICON</span></td>
                             </tr>
                             <tr>
                                 <td><strong>SHMCS: Secure Self-Healing Mesh Connectivity for Military Personnel Health Monitoring</strong></td>
-                                <td><span class="badge" style="color:#4ade80;">IEEE (Ongoing)</span></td>
+                                <td><span class="badge badge-success">IEEE (Ongoing)</span></td>
                             </tr>
                             <tr>
                                 <td><strong>Enhancing Medical Images Using Laplace Transform, Sobel Operator, Histogram Equalization, and ML</strong></td>
-                                <td><a href="https://drive.google.com/file/d/1BYpvQZV8Xf98sp9T1cP0lzntKtVM0UlK/view?usp=drive_link" target="_blank">📄 View Paper →</a></td>
+                                <td><a href="https://drive.google.com/file/d/1BYpvQZV8Xf98sp9T1cP0lzntKtVM0UlK/view?usp=drive_link" target="_blank" rel="noopener">📄 View Paper →</a></td>
                             </tr>
                             <tr>
                                 <td><strong>Paper #4 (Title in progress)</strong></td>
-                                <td><span class="badge pending" style="color:#facc15;">Under Review</span></td>
+                                <td><span class="badge badge-pending">Under Review</span></td>
                             </tr>
                         </tbody>
                     </table>
@@ -352,13 +358,16 @@
                         <h3>Sub-$250 Innovation</h3>
                         <p>Full telepresence robot</p>
                     </div>
-                    <!-- NEW WSDG ACHIEVEMENT WITH PICTURE -->
-                    <div class="achievement__card" style="grid-column: 1 / -1; display: flex; align-items: center; gap: 20px; text-align: left; padding: 20px;">
-                        <img src="assets/img/wsdg-award.jpg" alt="WSDG Gold Award" style="width: 140px; height: 140px; object-fit: cover; border-radius: 12px;" />
-                        <div>
-                            <h3 style="font-size: 1.2rem;">🏆 WSDG 2026 Gold Award Winner</h3>
-                            <p style="color: var(--first-color); font-weight: 600; margin-top: 4px;">Human Wellbeing Award</p>
-                            <p style="margin-top: 8px;">Designing Infrastructure-Independent Mesh Communication with End-to-End Security and Real-Time Health Monitoring for Military Personnel</p>
+                    <!-- WSDG GOLD AWARD CARD -->
+                    <div class="achievement__card achievement__card--featured">
+                        <img src="assets/img/wsdg-award.jpg" alt="WSDG 2026 Gold Award Ceremony" class="achievement__featured-img" />
+                        <div class="achievement__featured-content">
+                            <span class="achievement__featured-tag">🏆 Gold Award · WSDG 2026</span>
+                            <h3>WSDG 2026 Gold Award Winner</h3>
+                            <p class="achievement__featured-sub">Human Wellbeing Award — Malaysia 🇲🇾</p>
+                            <p class="achievement__featured-desc">
+                                Designing Infrastructure-Independent Mesh Communication with End-to-End Security and Real-Time Health Monitoring for Military Personnel.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -370,7 +379,7 @@
             <div class="bd-grid">
                 <span class="section__badge">Get in Touch</span>
                 <h2 class="section-title">Let's Connect</h2>
-                <p class="section__subtitle">Open to research collaborations, internships, and R&D opportunities</p>
+                <p class="section__subtitle">Open to research collaborations, internships, and R&amp;D opportunities</p>
                 <div class="contact__container">
                     <div class="contact__info">
                         <h3>Contact Information</h3>
@@ -382,15 +391,15 @@
                             <p><i class='bx bx-map'></i> Gazipur, Dhaka, Bangladesh</p>
                         </div>
                         <div class="contact__social">
-                            <a href="https://linkedin.com/in/md-al-riad-51b06b298" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                            <a href="https://github.com/riad42-iot" target="_blank"><i class='bx bxl-github'></i></a>
-                            <a href="#" target="_blank"><i class='bx bxl-google'></i></a>
+                            <a href="https://linkedin.com/in/md-al-riad-51b06b298" target="_blank" rel="noopener" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                            <a href="https://github.com/riad42-iot" target="_blank" rel="noopener" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                            <a href="#" aria-label="Portfolio"><i class='bx bxl-google'></i></a>
                         </div>
                     </div>
-                    <form class="contact__form">
-                        <input type="text" placeholder="Your Name" />
-                        <input type="email" placeholder="Your Email" />
-                        <textarea placeholder="Your Message"></textarea>
+                    <form class="contact__form" onsubmit="event.preventDefault();">
+                        <input type="text" name="name" placeholder="Your Name" aria-label="Your Name" required />
+                        <input type="email" name="email" placeholder="Your Email" aria-label="Your Email" required />
+                        <textarea name="message" placeholder="Your Message" aria-label="Your Message"></textarea>
                         <button type="submit" class="button contact__button">Send Message</button>
                     </form>
                 </div>
@@ -402,17 +411,17 @@
     <footer class="footer">
         <div class="bd-grid">
             <h3 class="footer__title">Md. Al-Riad</h3>
-            <p class="footer__subtitle">IoT & Robotics Engineer | Researcher | Innovator</p>
+            <p class="footer__subtitle">IoT &amp; Robotics Engineer | Researcher | Innovator</p>
             <div class="footer__social">
-                <a href="https://linkedin.com/in/md-al-riad-51b06b298" target="_blank" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/riad42-iot" target="_blank" class="footer__icon"><i class='bx bxl-github'></i></a>
-                <a href="https://www.facebook.com/share/14fkB3Eqga/" target="_blank" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+                <a href="https://linkedin.com/in/md-al-riad-51b06b298" target="_blank" rel="noopener" class="footer__icon" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/riad42-iot" target="_blank" rel="noopener" class="footer__icon" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                <a href="https://www.facebook.com/share/14fkB3Eqga/" target="_blank" rel="noopener" class="footer__icon" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
             </div>
             <p class="footer__copy">&copy; 2026 Md. Al-Riad. All rights reserved.</p>
         </div>
     </footer>
 
-    <!-- ===== SCRIPTS ===== -->
-    <script src="script.js"></script>
+    <!-- ✅ UPDATED JS PATH -->
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
